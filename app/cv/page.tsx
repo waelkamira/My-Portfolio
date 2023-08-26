@@ -10,7 +10,11 @@ import download from "./photos/download.png";
 
 export default function CV() {
   return (
-    <Container>
+    <Container
+      style={{
+        background: "linear-gradient(to bottom right, #4c4c4c, #4c4c4c)",
+      }}
+    >
       <Box
         style={{
           position: "relative",

@@ -9,7 +9,11 @@ import download from "./photos/download.png";
 import cross from "./photos/cross.png";
 export default function CoverLetter() {
   return (
-    <Container>
+    <Container
+      style={{
+        background: "linear-gradient(to bottom right, #4c4c4c, #4c4c4c)",
+      }}
+    >
       <Box
         style={{
           position: "relative",

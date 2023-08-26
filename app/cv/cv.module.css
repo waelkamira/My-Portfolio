@@ -38,17 +38,11 @@
   /* border: 1px solid red; */
   margin: 0rem;
   position: absolute;
-  right: 3vw;
+  right: 1vw;
   bottom: 3vw;
 }
 
 @font-face {
   font-family: boldFont;
   src: url("./ImpactLTStd.otf");
-}
-
-@media (max-width: 1024px) {
-  .linkTextAndButton {
-    right: 4vw;
-  }
 }

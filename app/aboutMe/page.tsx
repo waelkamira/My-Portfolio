@@ -70,13 +70,13 @@ export default function AboutMe() {
               flexDirection: "column",
             }}
           >
-            <Link href="/aboutMe" underline="none" target="-blank">
+            <Link href="/aboutMe" underline="none" target="blank">
               <h1 className={Styles.title}>ABOUT ME </h1>
             </Link>
           </div>
         </div>
         <div className={Styles.card}>
-          <Link href="/aboutMe" target="-blank">
+          <Link href="/aboutMe">
             <Image
               className={Styles.circle}
               src={aboutmeCircle1}
@@ -96,6 +96,9 @@ export default function AboutMe() {
                 </div>
                 <div className={Styles.paragraph}>
                   <p>
+                    {/* Hello, This is WAEL KAMIRA Website. In his role as an
+                    interaction Front-end developer, WAEL projects remarkable
+                    passion and expertise. */}
                     🎨 Creative junior front-end developer proficient in HTML,
                     JavaScript, and a range of UI frameworks including Tailwind,
                     Bootstrap, and Material UI. 🚀 Specializing in React and
@@ -111,7 +114,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={Styles.card}>
-          <Link href="/aboutMe" target="blank">
+          <Link href="/">
             <Image
               className={Styles.circle}
               src={aboutmeCircle2}
@@ -146,7 +149,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={Styles.card}>
-          <Link href="/aboutMe" target="blank">
+          <Link href="/">
             <Image
               className={Styles.circle}
               src={aboutmeCircle3}

@@ -1,0 +1,55 @@
+.navBar {
+  position: sticky;
+  color: rgb(255, 255, 255);
+  margin-top: 0rem;
+  background: linear-gradient(to bottom right, #4c4c4c, #4c4c4c);
+  /* border: 1px solid red; */
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 2;
+  height: 4.3rem;
+  padding: 0.5rem;
+  box-shadow: 0px 5px 20px#ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+.textAndHandle {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.text {
+  margin: 0rem;
+  font-family: title;
+  color: #f9b401;
+  font-size: 2rem;
+}
+.handle {
+  margin: 0rem;
+  width: 6rem;
+  height: 2rem;
+}
+
+.circle {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 2.3rem;
+  box-shadow: 10px 15px 20px#000000;
+  border-radius: 50%;
+}
+
+.circle:hover,
+.text:hover {
+  scale: 1.2;
+}

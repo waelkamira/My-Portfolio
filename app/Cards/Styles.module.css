@@ -9,13 +9,14 @@
   height: 100%;
 }
 
-.myprojects {
+.myProjects {
   font-size: 1.4vw;
   transform: scale(1, 1.5);
   font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 0rem;
   color: #ffffff;
+  margin-top: 5rem;
 }
 
 .title {
@@ -169,7 +170,7 @@
     margin: 0rem;
   }
 
-  .myprojects {
+  .myProjects {
     font-size: 6vw;
   }
 
@@ -192,26 +193,19 @@
   .summary {
     font-size: 10vw;
   }
+
   .paragraph {
-    font-size: 5vw;
-    text-align: center;
-    border: 1px solid rgb(197, 197, 197);
-    width: 20rem;
+    font-size: 3vw;
   }
 }
-@media (max-width: 320px) {
-  .paragraph {
-    font-size: 6vw;
-    text-align: center;
-    border: 1px solid rgb(197, 197, 197);
-    width: 10rem;
+
+/* @media screen and (max-width:400px) {
+  .box {
+    flex-direction: column;
   }
-}
-@media (max-width: 425px) {
-  .paragraph {
-    font-size: 6vw;
-    text-align: center;
-    border: 1px solid rgb(197, 197, 197);
-    width: 15rem;
+
+  .card {
+    width: 100%;
   }
-}
+
+} */

@@ -8,6 +8,7 @@
   background-image: linear-gradient(90deg, #fffbf2, #fff2d5);
   width: 100%;
   height: 100%;
+  /* position: relative; */
 }
 
 .title {
@@ -17,6 +18,10 @@
   margin-top: 2rem;
   margin-bottom: 0rem;
   letter-spacing: 2px;
+
+  /* -webkit-text-fill-color: #f9b401;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
 }
 
 .circle {
@@ -27,9 +32,12 @@
 }
 
 .linkButton {
+  /* box-shadow: -5px 7px 17px#070707; */
+  /* border-radius: 50%; */
   width: 5vw;
   height: 100%;
   margin-bottom: 1vw;
+  /* rotate: 15deg; */
   /* border: 1px solid rgb(197, 197, 197); */
 }
 
@@ -55,7 +63,7 @@
 
   position: absolute;
   bottom: 11vw;
-  left: 2vw;
+  left: 1.5vw;
 }
 
 @font-face {
@@ -63,32 +71,32 @@
   src: url("./ImpactLTStd.otf");
 }
 
-@media (max-width: 1440px) {
-  .linkTextAndButton {
-    bottom: 16vw;
-  }
-}
-
-@media (max-width: 1024px) {
-  .linkTextAndButton {
-    bottom: 19vw;
-  }
-}
-
-@media (max-width: 768px) {
-  .linkTextAndButton {
-    bottom: 18vw;
-  }
-}
-
-@media (max-width: 425px) {
+/* @media (min-width: 320px) and (max-width: 768px) {
   .linkTextAndButton {
     bottom: 17vw;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .linkTextAndButton {
+    bottom: 20vw;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1393px) {
+  .linkTextAndButton {
+    bottom: 18vw;
+  }
+}
+
+@media (min-width: 1394px) and (max-width: 1757px) {
   .linkTextAndButton {
     bottom: 15vw;
   }
 }
+
+@media (min-width: 1758px) and (max-width: 2000px) {
+  .linkTextAndButton {
+    bottom: 11vw;
+  }
+} */
