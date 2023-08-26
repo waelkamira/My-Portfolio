@@ -1,0 +1,52 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/cv/cv.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.cv_title__Pfi0R {
+  font-size: 4vw;
+  font-family: boldFont;
+  color: #f9b401;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  letter-spacing: 2px;
+}
+
+.cv_linkButton__S5X_E {
+  box-shadow: -5px 7px 17px#070707;
+  border-radius: 50%;
+  width: 3vw;
+  height: 100%;
+  margin-bottom: 1rem;
+
+  /* border: 1px solid rgb(197, 197, 197); */
+}
+
+.cv_linkButton__S5X_E:hover,
+.cv_linkText___xzWc:hover {
+  scale: 1.15;
+}
+
+.cv_linkText___xzWc {
+  color: #927150;
+  margin: 0rem;
+  color: #f9b401;
+  font-size: 2vw;
+  font-family: boldFont;
+}
+
+.cv_linkTextAndButton__Hj5f0 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  margin: 0rem;
+  position: absolute;
+  right: 1vw;
+  bottom: 3vw;
+}
+
+@font-face {
+  font-family: boldFont;
+  src: url(/_next/static/media/ImpactLTStd.74f53c5b.otf);
+}
+
